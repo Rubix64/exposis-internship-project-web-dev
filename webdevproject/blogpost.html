@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogpost</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+
+<img class = "blogpost_bg" src = "images/Green.jpg"></img>
+
+<a href="#navtarget" class="arrow_up"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
+<nav class="nav-header" id="navtarget">
+    <nav class="navigation m-auto">
+        <div class="nav-top ">
+            <div class="nav-logo logofont"><a href="#">Farfait</a></div>
+            <div class="nav-search">
+                <div class="nav-search-drop">
+                    <i class="fa fa-bars dropicon" aria-hidden="true"></i>
+                    <div class="nav-search-drop-contents">
+                        <a href="#" class='anav'>Start Here</a>
+                        <a href="newest.html" class='anav'>Newest</a>
+                        <a href="trending.html" class='anav'>Trending</a>
+                        <a href="login.php" title='login' class='anav'><i class="fa fa-sign-in"
+                                aria-hidden="true"></i></a>
+                        <a href="logout.php" title='logout' class="anav"><i class="fa fa-sign-out"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="nav-searchothers">
+                    <a href="#">START HERE</a>
+                    <a href="newest.html">NEWEST</a>
+                    <a href="trending.html">TRENDING</a>
+                    <a href="login.php" title='login'><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                    <a href="logout.php" title='logout' class="anav"><i class="fa fa-sign-out"
+                            aria-hidden="true"></i></a>
+                </div>
+                <span>
+                    <i class="fa fa-search searchicon" aria-hidden="true"></i>
+                </span>
+            </div>
+    </nav>
+    <form class="search-form m-auto" action="/search.html" method="GET">
+        <input type="text" placeholder="Search Anything... (Press 'Enter' to Submit)" name="query" class="form-input">
+    </form>
+    <hr id=navcontent>
+</nav>
+
+<div class="blog_content"> 
+    <h2>Inorder to post, follow the instructions below:</h2>
+
+    <div class="blog_requirement">
+        <label>Your username:</label>
+        <input type = "text" name = "username" >
+    </div>
+
+    <div class="blog_requirement">
+        <label>Preparation time in minutes:</label>
+        <input type="number" name="ptime">
+    </div>
+
+    <div class="blog_requirement">
+        <label>Cooking time in minutes:</label>
+        <input type="number" name="ctime">
+    </div>
+
+    <div class="blog_requirement">
+        <label>How many servings:</label>
+        <input type="number" name="ctime">
+    </div>
+    
+    <div class="blog_requirement">
+    <label for="sel1">Its category(select any one):</label>
+    <select class="form-control" id="sel1">
+        <option value="Dessert">Dessert</option>
+        <option value="Main Course">Main Course</option>
+        <option value="Appetizer">Appetizer</option>
+        <option value="Salad">Salad</option>
+    </select>
+    </div>
+
+    <div class="blog_requirement">
+        <label for="sel2">Its origin(select any one):</label>
+        <select class="form-control" id="sel2">
+            <option value="Indian">Indian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="American">American</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Thai">Thai</option>
+            <option value="Mexican">Mexican</option>
+        </select>
+    </div>
+
+    <div class="blog_requirement">
+        <label for="myfile">Select an image to upload:</label>
+        <input type="file" id="myfile" name="myfile">
+    </div>
+
+    <div class="blog_requirement">
+        <label for="myfile">Description of the recipe: </label>
+        <textarea name="describe" placeholder="We would love to hear a little more about this dish!"></textarea>
+    </div>
+
+    <div class="blog_requirement">
+        <label for="myfile">Ingredients used: </label>
+        <textarea name="ingredients" placeholder="Do mention all the ingedients used including its quantity"></textarea>
+    </div>
+    
+    <div class="blog_requirement">
+        <label for="myfile">Enter the method: </label>
+        <textarea name="method" placeholder="Describe all the steps used in making this dish here..."></textarea>
+    </div>
+
+    <div class="blog_requirement">
+    <input class="button" type="submit" value="Submit">
+    </div>      
+            
+</div>
+
+<div class="footer">
+        <hr>
+        <footer>
+            <div class="footer-content">
+                <h2>Farfait</h2>
+                <p>The most essential part of a well-balanced diet is Food!</p>
+    
+                <ul class="social">
+                    <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="quick-links">
+                    <ul>
+                        <li class="quick-items"><a href="contactus.html#aboutus" target="_blank">About Us</a></li>
+                        <li class="quick-items"><a href="#">Home</a></li>
+                        <li class="quick-items"><a href="contactus.html" target="_blank">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="fbottom">
+                    <p>Copyright &copy;2021. Designed by team <span>Farfait</span> | All rights reserved</p>
+                </div>
+    
+            </div>
+        </footer>
+    
+    </div>
+    <script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>

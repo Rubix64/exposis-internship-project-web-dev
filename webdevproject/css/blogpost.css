@@ -1,0 +1,87 @@
+.nav-header{
+    background-color: white;
+}
+.blogpost_bg{
+    background-color:black;
+    width:100%;
+    /* opacity:0.9; */
+    height: 100%;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.blog_content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.blog_content h2{
+    font-family: var(--font3);
+    font-size: 30px;
+    text-align: center;
+    background-color:rgb(125, 153, 106);
+    margin:12px;
+    line-height:45px!important;
+    border-radius: 12px;
+    padding: 9px 5px;
+}
+.blog_requirement{
+    align-self: center;
+    width: 90%;
+    display:flex;
+    flex-direction:column;
+    font-size:24px;
+    font-family: var(--font2);
+    margin:20px 50px;
+    max-width: 750px;
+    padding: 12px;
+    background-color: #cfdfb9;
+}
+.blog_requirement label {
+    padding: 5px 0px;
+    font-weight: 600;
+    color: #50290dde;
+    margin-left: 27px;
+}
+.blog_requirement input{
+    margin:10px;
+    width:90%;
+    align-self: center;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: var(--font1);
+    border-color: var(--main-bg-color);
+}
+.blog_requirement .form-control{
+    margin:10px;
+    width:93%;
+    align-self: center;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: var(--font1);
+    border-color: var(--main-bg-color);
+}
+.blog_requirement .form-control option{
+    width:50%;
+}
+.blog_requirement textarea{
+    margin:10px;
+    width:90%;
+    height: 100px;
+    align-self: center;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: var(--font1);
+    border-color: var(--main-bg-color);
+}
+.blog_requirement .button{
+    border: none;
+    background-color:var(--main-bg-color);
+    color:white;
+    cursor:pointer;
+}

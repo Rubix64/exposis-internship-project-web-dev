@@ -1,0 +1,35 @@
+@media screen and (max-width: 750px) {
+  .dropicon {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-searchothers{
+      display:none;
+  }
+  .content-img-carausal{
+    display:block;
+}
+.content-img-block{
+    display:none;
+}
+  .content-welcome img {
+    display: none;
+  }
+  .picstolinks{
+      text-align:center;
+  }
+  .imgcontainer{
+      margin: auto;
+  }
+  .imgcontainer img{
+      width:340px;
+  }
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 400px;
+  }
+  .modal-dialog .modal-content {
+    padding: 1rem;
+  }
+}
