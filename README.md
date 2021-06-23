@@ -1,1 +1,1 @@
-# web-dev-proj-back-front
+# exposis-internship-project-web-dev
