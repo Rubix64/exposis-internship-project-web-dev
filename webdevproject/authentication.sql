@@ -40,8 +40,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `created_at`) VALUES
-(3, '4nm19cs192', 'shettysonika64@gmail.com', '$2y$10$l3R3dihwpeaUxpD0BiXOw.EXG3171EcSEUHkNZ6cXgeVNQ/2K.3nW', '2021-06-19 16:02:37'),
-(4, 'rubix', '4nm19cs192@nmamit.in', '$2y$10$bYwva0r4g6TWYzslBZcwYegwzahzi9OYMSOwoplna6Utal9ipxgr2', '2021-06-22 17:43:23'),
+(3, '4nm19cs192', '4nm19cs192@4nm19cs192.com', '$2y$10$l3R3dihwpeaUxpD0BiXOw.EXG3171EcSEUHkNZ6cXgeVNQ/2K.3nW', '2021-06-19 16:02:37'),
+(4, 'rubix', 'rubix@rubix.in', '$2y$10$bYwva0r4g6TWYzslBZcwYegwzahzi9OYMSOwoplna6Utal9ipxgr2', '2021-06-22 17:43:23'),
 (5, 'simple', 'simple@simple.com', '$2y$10$wMcbapIbf3wN6WrgrWEQz.f/CEHEl6xlMDIEiIfeM6bmnBNB/v/5e', '2021-06-23 12:59:45');
 
 --
