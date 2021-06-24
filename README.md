@@ -1,6 +1,6 @@
 # exposis-internship-project-web-dev
 #Backend done using XAMPP.
-Frontend using html,css,javascript.
+#Frontend using html,css,javascript.
 Along with bootstrap->css framework.
 Xampp: Version 7.3.28 ->Windows 64 bit
 phpMyAdmin SQL Dump
